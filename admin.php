@@ -45,7 +45,7 @@ function wb_settings() {
 								<?php echo __( 'CODE STRUCTURE', 'wubook' );?> *
 							</td>
 							<td>
-							<input type="text" id="code_s" name="code_s" value="<?php echo get_option( 'wubook_widget_code' );?>" required>	
+							<input type="text" id="code_s" name="code_s" value="<?php echo get_option( 'wubook_widget_code' );?>" required>
 							</td>
 					</tr>
 					<tr>
@@ -865,7 +865,7 @@ function wb_settings() {
 				<button type="submit" class="wb_bu" onclick="wb_getlist();">
 					<i class="fa fa-check" aria-hidden="true"></i> <?php echo __( 'Save', 'wubook' );?>
 				</button>
-			
+
 
 
 
@@ -943,12 +943,12 @@ function wb_settings() {
 			</div>
 
 			<a href="http://wubook.net/" target="_blank" class="wb_logo">
-		 
+
 		 <img src="<?php echo plugins_url( 'i/logo.jpg', __FILE__ );?>">
-		
+
 		</a>
 
-		
+
 
 
 
@@ -967,7 +967,7 @@ function wb_settings() {
 					<td><i class="fa fa-archive" aria-hidden="true"></i>
 						<?php echo __( 'Plugin page', 'wubook' );?>
 					</td>
-					<td><a href="https://wordpress.org/plugins/wubook/" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> <?php echo __( 'Open', 'wubook' );?></a>
+					<td><a href="https://github.com/wubook/wp_multi_widget" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> <?php echo __( 'Open', 'wubook' );?></a>
 					</td>
 				</tr>
 				<tr>

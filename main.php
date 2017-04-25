@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: WuBook widget ( MultiWidget )
- * Plugin URI: http://wordpress.org/plugins/wubook/
+ * Plugin URI: https://github.com/wubook/wp_multi_widget
  * Description: WuBook widget is a tool for pre-ordering hotels directly on your website
  * Version: 1.0
  * Author: WuBook
@@ -11,7 +11,7 @@
 
 if ( !defined( "WPINC" ) ) { die( "WuBook" ); }
 
-function wb_($file){ require_once WP_PLUGIN_DIR . '/wubook/' . $file; }
+function wb_($file){ require_once WP_PLUGIN_DIR . '/wp_multi_widget/' . $file; }
 
 add_action( 'plugins_loaded', 'wubook_init' );
 add_action( 'admin_menu', 'wb_menu' );
@@ -26,6 +26,6 @@ wb_('lang.php');
 wb_('admin.php');
 wb_('front.php');
 wb_('class.php');
-wb_('func.php');	
+wb_('func.php');
 
 ?>
