@@ -175,18 +175,6 @@ wb_title {
 summary::-webkit-details-marker {
     display: none;
 }
-summary:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	transition: 2s;
-    content: "\f054";
-    font-size: 15px !important;
-}
-details.open summary:before {
-    font: normal normal normal 14px/1 FontAwesome;
-	transition: 2s;
-    content: "\f078";
-    font-size: 15px !important;
-}
 summary:before, summary:after {
     font-size:.8em;
     margin-right:6px;
